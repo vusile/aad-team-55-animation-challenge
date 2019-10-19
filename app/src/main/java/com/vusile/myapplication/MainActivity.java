@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.vusile.myapplication.animals.AnimalsActivity;
+import com.vusile.myapplication.lakes.LakesActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,9 +17,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startAnimalActivity(View view) {
-
         Intent i = new Intent(this, AnimalsActivity.class);
         startActivity(i);
+    }
 
+    public void startLakesActivity(View view) {
+        Intent i = new Intent(this, LakesActivity.class);
+        startActivity(i);
     }
 }
