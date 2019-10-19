@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">TZ Facts</string>
+
+    <string name="title_activity_animals">AnimalsActivity</string>
+    <string name="team_name">AAD-TEAM-55</string>
+    <string name="animals">ANIMALS</string>
+    <string name="animal_title">Animals In Tanzania</string>
+
+    <string name="title_activity_lakes">Lakes</string>
+    <string name="lakes_in_tanzania">Lakes in Tanzania</string>
+    <string name="lakes">Lakes</string>
+
 </resources>

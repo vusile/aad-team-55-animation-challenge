@@ -3,4 +3,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorLakesDeepBlue">#13286B</color>
+    <color name="colorLakesBlue">#3870BD</color>
+    <color name="colorLakesLightBlue">#529EE9</color>
 </resources>
