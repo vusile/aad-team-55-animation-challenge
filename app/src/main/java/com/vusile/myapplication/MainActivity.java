@@ -25,4 +25,16 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, LakesActivity.class);
         startActivity(i);
     }
+
+    public void startMineralsActivity(View view) {
+        //To do
+    }
+
+    public void startMountainsActivity(View view) {
+        //To do
+    }
+
+    public void startNationalParksActivity(View view) {
+        //To do
+    }
 }
