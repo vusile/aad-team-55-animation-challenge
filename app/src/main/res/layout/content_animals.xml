@@ -9,17 +9,18 @@
     tools:layout_editor_absoluteY="64dp"
     android:layout_margin="4sp"
     android:padding="10sp"
-
+    android:paddingBottom="25sp"
     tools:showIn="@layout/activity_animals">
 
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/appCompatTextView"
-        android:layout_width="377dp"
+        android:layout_width="match_parent"
         android:layout_height="35dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="@string/animal_title"
         android:textAlignment="center"
         android:textSize="28sp"
+        android:textColor="@color/cardview_dark_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -37,12 +38,12 @@
         android:layoutAnimation="@anim/animals_animation_layout_fall_down"
         />
 
-    <View
+    <!--<View
         android:layout_width="match_parent"
         android:layout_height="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/animals_recycler_view" />
+        app:layout_constraintTop_toBottomOf="@+id/animals_recycler_view" />-->
 
 </android.support.constraint.ConstraintLayout>
