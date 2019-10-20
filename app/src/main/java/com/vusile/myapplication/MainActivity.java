@@ -9,6 +9,7 @@ import android.view.View;
 
 import com.vusile.myapplication.animals.AnimalsActivity;
 import com.vusile.myapplication.lakes.LakesActivity;
+import com.vusile.myapplication.minerals.MineralsActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startMineralsActivity(View view) {
-        Snackbar.make(view, "This will Start MineralsActivity", Snackbar.LENGTH_LONG)
-                .setAction("Dismiss", null).show();
+        Intent i = new Intent(this, MineralsActivity.class);
+        startActivity(i);
     }
 
     public void startMountainsActivity(View view) {
