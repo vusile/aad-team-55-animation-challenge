@@ -10,15 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".minerals.MineralsActivity"
+            android:label="@string/title_activity_minerals"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".animals.AnimalsActivity"
             android:label="@string/title_activity_animals"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".lakes.LakesActivity"
             android:label="@string/title_activity_lakes"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

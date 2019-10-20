@@ -6,8 +6,13 @@
     <string name="animals">ANIMALS</string>
     <string name="animal_title">Animals In Tanzania</string>
 
+    <string name="mineral_title">Minerals In Tanzania</string>
+    <string name="mountain_title">Mountains In Tanzania</string>
+    <string name="national_park_title">National Parks In Tanzania</string>
+
     <string name="title_activity_lakes">Lakes</string>
     <string name="lakes_in_tanzania">Lakes in Tanzania</string>
     <string name="lakes">Lakes</string>
+    <string name="title_activity_minerals">MineralsActivity</string>
 
 </resources>
