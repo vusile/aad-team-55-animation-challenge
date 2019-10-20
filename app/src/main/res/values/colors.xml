@@ -6,4 +6,7 @@
     <color name="colorLakesDeepBlue">#13286B</color>
     <color name="colorLakesBlue">#3870BD</color>
     <color name="colorLakesLightBlue">#529EE9</color>
+    <color name="colorMineralsToolbar">#CBA135</color>
+    <color name="colorMineralsTitle">#CFB53B</color>
+    <color name="colorMineralsSmallTitle">#FFCC33</color>
 </resources>
