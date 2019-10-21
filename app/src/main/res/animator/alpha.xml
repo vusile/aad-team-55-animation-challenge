@@ -6,6 +6,6 @@
     android:valueTo="0.0"
     android:valueType="floatType"
     android:repeatMode="reverse"
-    android:repeatCount="6">
+    android:repeatCount="7">
 
 </objectAnimator>

@@ -9,4 +9,12 @@
     <color name="colorMineralsToolbar">#CBA135</color>
     <color name="colorMineralsTitle">#CFB53B</color>
     <color name="colorMineralsSmallTitle">#FFCC33</color>
+
+    <color name="colorMountainsToolbar">#056644</color>
+    <color name="colorMountainsTitle">#006400</color>
+    <color name="colorMountainsSmallTitle">#05AC72</color>
+
+    <color name="colorAnimalsToolbar">#52392F</color>
+    <color name="colorAnimalsTitle">#704F38</color>
+    <color name="colorAnimalsSmallTitle">#674422</color>
 </resources>
