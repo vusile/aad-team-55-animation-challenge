@@ -47,6 +47,8 @@ public class LakesActivity extends AppCompatActivity {
         mLakesRecylerView.setHasFixedSize(true);
         mLakesRecylerView.setLayoutManager(mLinearLayoutManager);
         mLakesRecylerView.setAdapter(mLakesAdapter);
+
+        overridePendingTransition(R.anim.mineral_fade_in, R.anim.mineral_fade_out);
     }
 
     private void addLakes() {
