@@ -23,6 +23,9 @@
         android:layout_height="wrap_content" />
 
     <android.support.v7.widget.RecyclerView
+        android:layoutAnimation="@anim/animals_animation_layout_fall_down"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.017"
         android:id="@+id/rv_national_parks"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
