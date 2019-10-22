@@ -31,5 +31,8 @@
     <string name="menu_send">Send</string>
 
     <string name="minerals_in_tanzania">Minerals in Tanzania</string>
+    <string name="title_activity_national_parks">NationalParksActivity</string>
+    <string name="national_parks_in_tanzania">National Parks in Tanzania</string>
+    <string name="click_on_an_image_to_learn_more_about_tanzania">Click on an Image to Learn More about Tanzania</string>
 
 </resources>

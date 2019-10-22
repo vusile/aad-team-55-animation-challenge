@@ -10,6 +10,7 @@ import com.vusile.myapplication.animals.AnimalsActivity;
 import com.vusile.myapplication.lakes.LakesActivity;
 import com.vusile.myapplication.mountains.MountainsActivity;
 import com.vusile.myapplication.minerals.MineralsActivity;
+import com.vusile.myapplication.nationalparks.NationalParksActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,8 +41,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startNationalParksActivity(View view) {
-        //Todo : Implement NationalParksActivity
-        Snackbar.make(view, "This will Start NationalParksActivity", Snackbar.LENGTH_LONG)
-                .setAction("Dismiss", null).show();
+        Intent i = new Intent(this, NationalParksActivity.class);
+        startActivity(i);
     }
 }

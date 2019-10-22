@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".nationalparks.NationalParksActivity"
+            android:label="@string/title_activity_national_parks"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".mountains.MountainsActivity"
             android:label="@string/title_activity_mountains"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".minerals.MineralsActivity"
             android:label="@string/title_activity_minerals"

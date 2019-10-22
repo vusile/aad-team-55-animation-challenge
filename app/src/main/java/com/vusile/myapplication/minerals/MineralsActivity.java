@@ -14,7 +14,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.vusile.myapplication.R;
-import com.vusile.myapplication.minerals.Mineral;
 
 import java.util.ArrayList;
 
