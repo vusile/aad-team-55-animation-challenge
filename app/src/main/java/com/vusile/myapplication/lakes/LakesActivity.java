@@ -1,5 +1,7 @@
 package com.vusile.myapplication.lakes;
 
+import android.animation.Animator;
+import android.animation.AnimatorInflater;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
@@ -42,11 +44,15 @@ public class LakesActivity extends AppCompatActivity {
         mLinearLayoutManager = new LinearLayoutManager(this);
         mLakesAdapter = new LakesAdapter();
 
-
         mLakesRecylerView = findViewById(R.id.rv_lakes);
         mLakesRecylerView.setHasFixedSize(true);
         mLakesRecylerView.setLayoutManager(mLinearLayoutManager);
         mLakesRecylerView.setAdapter(mLakesAdapter);
+
+        overridePendingTransition(R.anim.mineral_fade_in, R.anim.mineral_fade_out);
+        Animator animator = AnimatorInflater.loadAnimator(LakesActivity.this, R.animator.alpha);
+        animator.setTarget(R.id.img_lake);
+        animator.start();
     }
 
     private void addLakes() {
@@ -102,8 +108,10 @@ public class LakesActivity extends AppCompatActivity {
             TextView lakeName;
             ImageView lakeImage;
             TextView lakeDescription;
+
             public LakesViewHolder(@NonNull View itemView) {
                 super(itemView);
+
                 lakeName = itemView.findViewById(R.id.tv_lake_name);
                 lakeDescription = itemView.findViewById(R.id.tv_description_lake);
                 lakeImage = itemView.findViewById(R.id.img_lake);

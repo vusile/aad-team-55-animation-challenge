@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_centerHorizontal="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".minerals.MineralsActivity"
+    tools:showIn="@layout/activity_minerals">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:id="@+id/tv_title"
+        android:padding="2dp"
+        android:textSize="32sp"
+        android:textColor="@color/colorMineralsTitle"
+        android:text="@string/national_parks_in_tanzania"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layoutAnimation="@anim/animals_animation_layout_fall_down"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.017"
+        android:id="@+id/rv_national_parks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
