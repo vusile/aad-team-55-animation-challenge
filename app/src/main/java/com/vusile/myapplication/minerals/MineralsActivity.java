@@ -118,13 +118,13 @@ public class MineralsActivity extends AppCompatActivity {
 
 
     /*// Scale animation
-    public void scaleAnimation() {
+    public void scaleAnimation(View view) {
 
-        ImageView imageView = findViewById(R.id.rv_minerals);
+        //ImageView imageView = findViewById(R.id.rv_minerals);
 
         Animator scaleAnimator = AnimatorInflater.loadAnimator(this, R.animator.scale);
 
-        scaleAnimator.setTarget(imageView);
+        scaleAnimator.setTarget(view);
 
         scaleAnimator.start();
     }*/
