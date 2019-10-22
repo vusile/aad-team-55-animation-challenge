@@ -1,7 +1,6 @@
 package com.vusile.myapplication;
 
 import android.content.Intent;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,6 +8,7 @@ import android.view.View;
 
 import com.vusile.myapplication.animals.AnimalsActivity;
 import com.vusile.myapplication.lakes.LakesActivity;
+import com.vusile.myapplication.mountains.MountainsActivity;
 import com.vusile.myapplication.minerals.MineralsActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,9 +35,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startMountainsActivity(View view) {
-        //Todo : Implement MountainsActivity
-        Snackbar.make(view, "This will Start MountainsActivity", Snackbar.LENGTH_LONG)
-                .setAction("Dismiss", null).show();
+        Intent i = new Intent(this, MountainsActivity.class);
+        startActivity(i);
     }
 
     public void startNationalParksActivity(View view) {

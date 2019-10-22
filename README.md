@@ -2,12 +2,12 @@
 AAD Challenge II
 
 # Categories
-1. Mountains [Color: Darker Brown + Green and their shades]
+1. Mountains [Color: Darker Brown + Green and their shades] - Dustan + Omar
    - Kilimanjaro
    - Meru
    - Usambara
 
-2. Animals [Color: Light Brown and it's shades] - Dustan
+2. Animals [Color: Light Brown and it's shades] - Dustan + Omar
    - Simba (Lion)
    - Elephant
    - Giraffe
