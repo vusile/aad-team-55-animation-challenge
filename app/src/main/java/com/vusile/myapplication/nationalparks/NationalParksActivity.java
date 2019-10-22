@@ -45,6 +45,8 @@ public class NationalParksActivity extends AppCompatActivity {
         mNationalParksRecylerView.setHasFixedSize(true);
         mNationalParksRecylerView.setLayoutManager(mLinearLayoutManager);
         mNationalParksRecylerView.setAdapter(mMineralsAdapter);
+
+        overridePendingTransition(R.anim.mineral_fade_in, R.anim.mineral_fade_out);
     }
 
     private void addNationalParks() {
