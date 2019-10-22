@@ -1,38 +1,37 @@
 # aad-team-55-animation-challenge
 AAD Challenge II
 
-# Categories
-1. Mountains [Color: Darker Brown + Green and their shades] - Dustan + Omar
+aad-team-55-animation-challenge is an app that briefly describe five Tanzania's facts,
+These five categories were randomly selected, just to demonstrate a few things and animation tricks we learned from Android Animations Course by Sriyank Siddhartha (https://app.pluralsight.com/library/courses/android-animations-update/table-of-contents) 
+
+![Tz Facts Picture](app/src/main/res/drawable/tz_facts.jpg)
+
+#Categories
+1. _Mountains_
    - Kilimanjaro
    - Meru
    - Usambara
 
-2. Animals [Color: Light Brown and it's shades] - Dustan + Omar
+2. _Animals_
    - Simba (Lion)
    - Elephant
    - Giraffe
 
-3. Lakes [Color: Blue and it's shades ] - Terence & Musa
+3. _Lakes_
    - Victoria
    - Tanganyika
    - Nyasa
 
-4. Minerals [Color: Yellow and it's shades]
+4. _Minerals_
    - Tanzanite
    - Gold
    - Diamond
 
-5. National Parks [Color: Green]
+5. _National Parks_
    - Serengeti
    - Ngorongoro
    - Mikumi
 
-#So this is how the workflow should be:
-1. Clone the repo (most of you have done this already)
-2. Create a branch. Branch name should be the animation (for simplicity)
-3. Work on the branch
-4. Stage and commit changes
-5. Push changes to GitHub
-6. Create a Pull Request
-7. Relax and Wait for the PR to be approved
 
+Contributors:
+List of contributors: [Contributors](Contributors.md)
