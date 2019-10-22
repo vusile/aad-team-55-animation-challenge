@@ -1,5 +1,7 @@
 package com.vusile.myapplication.minerals;
 
+import android.animation.Animator;
+import android.animation.AnimatorInflater;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -44,6 +46,12 @@ public class MineralsActivity extends AppCompatActivity {
         mMineralsRecylerView.setHasFixedSize(true);
         mMineralsRecylerView.setLayoutManager(mLinearLayoutManager);
         mMineralsRecylerView.setAdapter(mMineralsAdapter);
+
+        // Slide In animation
+        overridePendingTransition(R.anim.mineral_fade_in, R.anim.mineral_fade_out);
+
+        // This one cause the app to stop, i have not figured out why
+        //scaleAnimation();
     }
 
     private void addMinerals() {
@@ -107,4 +115,17 @@ public class MineralsActivity extends AppCompatActivity {
             }
         }
     }
+
+
+    /*// Scale animation
+    public void scaleAnimation() {
+
+        ImageView imageView = findViewById(R.id.rv_minerals);
+
+        Animator scaleAnimator = AnimatorInflater.loadAnimator(this, R.animator.scale);
+
+        scaleAnimator.setTarget(imageView);
+
+        scaleAnimator.start();
+    }*/
 }
